@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Developer APP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<!-- iconos cdn boostraps -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+<!---Navegacion-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">IT APP Móviles </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="www.ITdeveloperApp/¿Quiénes somos?.cl">¿Quiénes somos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="www.ITdeveloperApp/Preguntas frecuentes.cl">Preguntas frecuentes</a>
+        </li>
+        <li class="nav-item">
+        <li class="nav-item">
+          <a class="nav-link" href="www.ITdeveloperApp/cursos.cl">Cursos de developer APP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled about-text text-primary" href="#">ITdeveloperApp</a>
+        </li>
+<!---componente dropdown para navegacion -->
+        <div class="dropdown col-sm-1">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Inicio
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">¿Quiénes somos?</a></li>
+            <li><a class="dropdown-item" href="#">Preguntas frecuentes</a></li>
+            <li><a class="dropdown-item" href="#">Cursos IT APP</a></li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+  </nav>
+<!---container-->
+  <div class="  bg-secondary text-white text-center">
+    <h1>IT Aplicaciones Móviles</h1>
+<!-----------------badges para sector noticias----------------->
+      <button type="button"  class="btn btn-close-white">Noticias IT APP <span class="badge text-bg-secondary">18</span>
+      </button>
+<!-----------------badges para sector noticias----------------->
+    <div class="card">
+    </div>
+    <div class="card-body">
+      <blockquote class="bg-dark">
+        <p>Hace menos de una década, nunca imaginamos hacer cualquier tipo de
+          acción con un solo clic, contactar personas de todo el mundo, realizar
+          transacciones en cualquier parte del mundo, lo fácil que sería pedir
+          comida a domicilio .<br>Todos gracias al desarrollo de las aplicaciones.
+          móviles.</p>
+        <div class="blockquote-footer bg-dark">El desarrollo de las app moviles <cite title="Únete a nosotros">es el
+            Futuro</cite></div>
+      </blockquote>
+    </div>
+  </div>
+  </div>
+<!-----------------alerta----------------->
+  <script>
+    function alerta() {
+      alert("AHORA CON DESCUENTO EN TODOS NUESTROS CURSOS SOLO POR 24Horas! | Suscribete <--");
+    }
+  </script>
+  <input class="bg-dark text-white col-md-12" type="button" onclick="alerta()"
+    value="¿Quieres saber más sobre creatividad e innovación?">
+<!-----------------alerta----------------->
+  </div>
+<!-----------------carrusel----------------->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img\img_1.jpg" class="d-block w-100" alt="imagen de celular">
+      </div>
+      <div class="carousel-item">
+        <img src="img\img_2.jpg" class="d-block w-100" alt="imagen de equipo de desarrolladores">
+      </div>
+      <div class="carousel-item">
+        <img src="img\img_3.jpg" class="d-block w-100" alt="imagen de persona utilizando pc">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--------termino-de---carrusel----------------->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+<!------------uso de Card para logo adiconalmente informacion del sitio web------------->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img\icon_logo.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Conócenos</h5>
+            <p class="card-text">El desarrollo de aplicaciones móviles es un sector con una gran demanda de puestos de
+              trabajo.</p>
+            <a href="https://cl.jooble.org/trabajo-programador/Chile" class="btn btn-primary">Ver Más</a>
+          </div>
+        </div>
+<!-----------termino-de-Card------------------------->
+      </div>
+      <div class="col-sm-4">
+        <h3>¿Qué hace un desarrollador de Aplicaciones Moviles?</h3>
+        <p>Esta es una de las preguntas más frecuentes sobre el desarrollo de aplicaciones móviles. Un desarrollador de
+          aplicaciones móviles es un programador cuya principal responsabilidad es crear, probar y programar
+          aplicaciones para teléfonos móviles, tabletas, relojes inteligentes e incluso televisores inteligentes.
+          Generalmente, estos desarrolladores trabajan en equipos y entregan ideas y conceptos al público o las
+          necesidades específicas de los clientes.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Tipos de aplicaciones móviles</h3>
+        <p>Se cree que en la actualidad existen más de 32 categorías de aplicaciones de Android en Google Play Store y
+          alrededor de 24 en Apple App Store; lo que nos transfiere a una lista abrumadora de aplicaciones que no
+          pudiésemos enumerar en este artículo, por lo que nos centraremos en los tipos de aplicaciones móviles más
+          buscadas y utilizadas en todo el planeta. Varias aplicaciones móviles están vinculadas, por ejemplo, en el
+          caso de los juegos, podría ser una aplicación educativa o de estilo de vida que cubra temas como viajes,
+          comida, transporte, entretenimiento, etc. inteligencia y comunicación. También algunos ejemplos de
+          aplicaciones móviles.</p>
+      </div>
+    </div>
+  </div>
+<!---Formulario--->
+  <div class="row m-0">
+    <h3>Contáctenos para más información</h3>
+    <div class="col-md-12 p-0 pt-2 p-2 ">
+      <form action="#" class="bg-dark p-1 m-auto">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Correo">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="mb-4">
+              <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-secondary">Enviar</button>
+        </div>
+      </form>
+<!-----footeer componentes de iconos de redes sociales----->
+      <div class="mt-5 p-4 bg-dark text-white text-center">
+        <h3>Suscríbete ahora a nuestra web y comienza a recibir el boletín mensual con el cual estarás al día con todas las
+          novedades de ITdeveloperApp para app móviles.</h3>
+        <i class="bi bi-twitter text-white mx-1"></i>
+        <i class="bi bi-facebook text-white mx-1"></i>
+        <i class="bi bi-linkedin text-white mx-1"></i>
+        <i class="bi bi-instagram text-white mx-1"></i>
+        <p class="text-white">Elíjanos de Preferencia | IT Aplicaciones Móviles | </p>
+      </div>
+    </div>
+</div>
+<!-----footeer----->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous">
+</script>
+</body>
+</html>

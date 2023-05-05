@@ -1,0 +1,22 @@
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+}
+
+.navbar{    
+    position: absolute;
+}
+.card-body{
+    position: fixed;
+}
+
+p{
+    text-align: center;
+    border: 1px solid black;
+}
+
+a{
+    font-size: medium;
+}
